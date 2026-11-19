@@ -1,0 +1,122 @@
+{
+    "load_settings": {
+        "prompt": "Gespeicherte Einstellungen laden?",
+        "hide": "Diese Nachricht nicht mehr anzeigen",
+        "saved": "Ihre gespeicherten Einstellungen wurden Erfolgreich geladen.",
+        "default": "Sie benutzen die Standard Einstellungen."
+    },
+    "menu": {
+        "general": {
+            "back": "Zurück",
+            "input": {
+                "prompt": "Wählen Sie bitte eine Option!",
+                "error": "Diese Option existiert nicht!"
+            }
+        },
+        "main": {
+            "header": "Menu",
+            "new_game": "Neues Spiel",
+            "quit": "Beenden"
+        },
+        "settings": {
+            "header": "Einstellungen",
+            "general": {
+                "header": "Allgemeine Einstellungen",
+                "collums": "Spalten",
+                "rows": "Reihen",
+                "win": "Gewinnanforderung",
+                "free": "Platzhalter"
+            },
+            "change": {
+                "prompt": "Geben Sie bitte den neuen Wert ein",
+                "error": {
+                    "header": "Dieser Wert ist ungültig!",
+                    "int": "Bitte geben Sie eine Zahl",
+                    "str": "Bitte geben Sie eine Zeichenkette mit einer Länge",
+                    "range": "zwischen",
+                    "range_and": "und",
+                    "min": "größer gleich",
+                    "exact": "von",
+                    "end": "ein!"
+                }
+            }
+        },
+        "save": {
+            "header": "Speicher Verwalten",
+            "save": {
+                "header": "Einstellungen Speichern",
+                "append": "Ihre Änderungen wurden gespeichert"
+            },
+            "reset": {
+                "header": "Einstellungen zurücksetzen",
+                "delete": {
+                    "text": "Gespeicherten Einstellungen löschen",
+                    "append": "Ihre gespeicherten Einstellungen wurden Erfolgreich gelöscht"           
+                },
+                "reset": {
+                    "text": "Einstellungen zurücksetzen",
+                    "append": "Ihre Einstellungen wurden Erfolgreich züruckgesetzt"
+                }
+            }
+        },
+        "player": {
+            "header": "Spieler Verwaltung",
+            "player": "Spieler",
+            "new": {
+                "header": "Neuer Spieler",
+                "char_prompt": "Geben Sie bitte das Zeichen des neuen Spielers ein",
+                "col_prompt":"Wählen Sie bitte die Farbe des neuen Spielers"
+            },
+            "rename": {
+                "header": "Umbenennen",
+                "prompt": "Geben Sie bitte das neue Zeichen des Spielers ein"
+            },
+            "recolor": {
+                "header": "Neue Farbe",
+                "prompt": "Wählen Sie bitte eine neue Farbe für diesen Spieler",
+                "error": "Diese Farbe existiert nicht!",
+                "colors": {
+                    "more": "Erweiterte Farbeinstellungen",
+                    "black": "Schwarz",
+                    "red": "Rot",
+                    "green": "Grün",
+                    "yellow": "Gelb",
+                    "blue": "Blau",
+                    "magenta": "Magenta",
+                    "cyan": "Cyan",
+                    "white": "Weiß"
+                }
+            },
+            "delete": {
+                "header": "Entfernen",
+                "prompt": {
+                    "start": "Wollen Sie",
+                    "end": "löschen"
+                }
+            },
+            "input": {
+                "prompt": "Wählen Sie bitte einen Spieler",
+                "error": "Dieser Spieler existiert nicht!"
+            }
+        }
+    },
+    "game": {
+        "input": {
+            "prompt": "Wähle deine Spalte Spieler",
+            "error": {
+                "invalid": "Diese Spalte existiert nicht!",
+                "full": "Spatle voll, bitte wählen Sie eine andere Spalte!"
+            }
+        },
+        "end": {
+            "win": "hat gewonnen!",
+            "draw": "Das Spielfeld ist voll aber niemand hat gewonnen",
+            "enter": "Drücken Sie Enter um zum Menu zu kommen"
+        }
+    },
+    "general": {
+        "player": "Spieler",
+        "y": "Ja",
+        "n": "Nein"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "players": [
+            {
+                "char": "X",
+                "col": 1
+            },
+            {
+                "char": "O",
+                "col": 4
+            }
+        ],
+        "placeholder": "-"
+    }, 
+    "map": {
+        "collums": 7,
+        "rows": 6,
+        "win": 4
+    }
+}
